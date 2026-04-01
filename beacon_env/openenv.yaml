@@ -1,0 +1,23 @@
+name: BEACON
+version: "1.0.0"
+description: >
+  Dual-scale budget management environment where agents
+  learn to allocate income across household and corporate
+  financial categories under constraints and economic shocks.
+author: your_name
+tags: [finance, budgeting, planning, dual-scale]
+modes: [household, corporate]
+tasks:
+  - task1
+  - task2
+  - task3
+```
+
+**`requirements.txt`** — paste this:
+```
+fastapi
+uvicorn
+pydantic
+openai
+pyyaml
+groq
