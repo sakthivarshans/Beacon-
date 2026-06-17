@@ -65,7 +65,7 @@ def grade_task1() -> float:
     _obs, reward, _done, _info = env.step(action)
 
     # --- Normalise bills_paid_score from [0.0, 0.4] → [0.0, 1.0] ------------
-    score = reward.bills_paid_score / 0.4
+    score = reward.bills_paid_score / 0.6
     return round(score, 4)
 
 
